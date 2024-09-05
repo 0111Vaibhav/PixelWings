@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+body {
+    font-family:"Pixelify Sans",'Courier New', Courier, monospace;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background:url(assetsForGame/Sponsers.png) no-repeat center center/cover ;
+   
+}
+
+h1 {
+    font-size: 4em;
+}
+#game-header {
+    position: absolute;
+
+    top: 20px; /* Adjust to control distance from the top */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.menu-container {
+    text-align: center;
+}
+
+
+#startButton {
+    font-size: 24px;
+    padding: 10px 20px;
+    background-color: #9334db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#startButton:hover {
+    background-color: #2980b9;
+}
+
+#board {
+    /* background-color: skyblue; */
+    border: 2px solid #2980b9;
+    display: block;
+    margin: 0 auto;
+    background: url("assetsForGame/flappybirdbg.png");
+    background-size: contain;
+}

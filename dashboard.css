@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+body{
+    font-family:"Pixelify Sans",'Courier New', Courier, monospace;
+    background: url(assetsForGame/Sponsers.png) no-repeat center center/cover;
+    overflow: hidden;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+.container{
+    height: 100vh;
+    width: 100% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33.3%;
+    margin-top: 2rem;
+    margin-bottom: 1.25rem;
+       
+}
+
+.btn-minecraft{
+    background: #ffffff;
+    color: rgb(3, 3, 3);
+    width: 100%;
+    padding: .5rem;
+    margin-bottom: .75rem;
+    font-size: 1.25rem;
+    letter-spacing: .025em;
+    border: 2px solid rgba(0,0,0,1);
+    box-shadow: inset 3px 3px 0 rgba(0,0,0,0.5)
+                inset -3px -3px 0 rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+
+.btn-minecraft:hover{
+    background:  #75e4de;
+}
+.btn-minecraft:focus{
+    color: rgb(red,green,blue);
+    outline: none;
+}

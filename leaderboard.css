@@ -1,0 +1,58 @@
+/* Basic body style */
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+body {
+    font-family:"Pixelify Sans",'Courier New', Courier, monospace;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Leaderboard container */
+.leaderboard {
+    display: inline-block;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Button styling */
+button {
+    padding: 5px 10px;
+    font-size: 16px;
+    margin: 0 5px;
+    cursor: pointer;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Score column styling */
+.score {
+    font-size: 18px;
+    font-weight: bold;
+}

@@ -43,8 +43,7 @@ document.addEventListener('click', startGame, { once: true });
 
 // startButton.addEventListener('click',startGame);
 document.getElementById('gameEnd').addEventListener('click',function(){
-    document.getElementById('gameEnd').style.display = 'none';
-    document.getElementById('gameArea').style.display = 'block';
+    location.href="index.html";
 });
 
 function startGame(){

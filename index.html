@@ -24,6 +24,16 @@ document.getElementById('store').addEventListener('click',function(){
 document.getElementById('scoreboard').addEventListener('click',function(){
     location.href="leaderboard.html";
 });
+app.post('/submit-points', (req, res) => {
+    const points = points + req.body.points;
+    // const username = req.body.username;
+    // Insert points into a MySQL table
+    context.fillStyle = "white";
+    context.font="45px sans-serif";
+    context.fillText(score, 5, 45);
+    
+});
+
 </script>
 
 </body>
